@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lohoyinttr"
+
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+    <LinearLayout
+        android:id="@+id/lifirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/rectbackgra"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_10sdp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/opImage"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/customer_support" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_28sdp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Dr. John Riley"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_13sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/specialities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="service_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/qualification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:gravity="right"
+                        android:singleLine="true"
+                        android:text="service_name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/qualification"
+                        android:drawableTint="@color/light_grey"
+                        android:fontFamily="@font/proximanovaregular"
+                        android:gravity="left|top"
+                        android:maxLines="3"
+                        android:text="Lorem "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/rectbackgra"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Purpose of visit"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Consultation"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/rectbackgra"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date and time"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/tv_datetime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="11 jan 2017 02:45 AM"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/rectbackgra"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Appointment for"
+            android:textColor="@color/black"></TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/self"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Self" />
+
+            <RadioButton
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Someone else" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/rectbackgra"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_20sdp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Please provide patient detail:"
+            android:textColor="@color/black"></TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PatientName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Patient Name"
+            android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PatientMobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Patient Mobile Number"
+            android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Patientage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint="Patient Age"
+            android:maxLength="2"
+            android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ClientMobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint="Client Mobile Number"
+            android:textSize="15sp" />
+</com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Clientemail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Patient Email (Optional)"
+            android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="By booking we agree your terms and conditions"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_9sdp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/submit"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@drawable/rectnew"
+            android:backgroundTint="@color/button_color"
+            android:fontFamily="@font/proximanovaregular"
+            android:gravity="center"
+            android:text="    Confirm   "
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

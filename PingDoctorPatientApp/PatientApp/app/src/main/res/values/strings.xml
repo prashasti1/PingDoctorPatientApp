@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Ping Doctor</string>
+
+    //////////////////////////////////////
+    <string name="network_error_title">Network Error!</string>
+    <string name="err_msg_mobile">Cannot be empty</string>
+    <string name="err_msg_email">Email Cannot be empty</string>
+    <string name="err_msg_username">User Address Cannot be empty</string>
+    <string name="err_msg_password">Password Cannot be Empty</string>
+    <string name="err_msg_contact">Contact Number Cannot be Empty</string>
+    <string name="err_msg_lastname">Name Cannot be Empty</string>
+    <string name="indian_rupay">\U+20B9</string>
+    <string name="facebook_app_id">422040801847810</string>
+    <string name="start_timer">stop_timer stop_timer stop_timer </string>
+
+    <string name="rupiya">Rs </string>
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+
+
+    <string name="network_error_message">Please check your network connection and try again.</string>
+    <string name="attention_error_title">Attention!</string>
+    <string name="successful_title">Successful!</string>
+    <string name="password_error">Please enter valid password</string>
+    <string name="mobilenumber_error">Enter Valid Mobile Number</string>
+    <string name="err_msg_piclocation">Enter Select Pic Locationr</string>
+    <string name="err_msg_droplocation">Enter Select Drop Location.</string>
+    <string name="transactionId_error">Enter valid transaction ID</string>
+    <string name="amount_error">Please enter recharge amount</string>
+    <string name="amount_transfer_error">Please enter amount</string>
+    <string name="transfer_type_error">Please select payment system</string>
+    <string name="bank_error">Please select bank</string>
+    <string name="operator_error">Please select operator</string>
+    <string name="previouspass_error">Incorrect current password!</string>
+    <string name="newpass_error">New password not matched!</string>
+    <string name="pinpass_error">Pin password not matched!</string>
+    <string name="transaction_empty_message">No transaction history found!</string>
+    <string name="empty_list_message">No data history found!</string>
+    <string name="login_error_title">Error!</string>
+
+    <string name="err_msg_new_pass">Please Enter Your New Password</string>
+    <string name="err_msg_cnf_pass">Please Enter Your Confirm Password</string>
+    <string name="err_msg_match_pass">New Password and Confirm Password does not match.</string>
+    <string name="err_msg_old_pass">Please Enter Your Old Password</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="promo_apply_text">Apply promo code to avail exciting offers</string>
+    <string name="tagline">Talk to doctors online about your issues and get answers. Get online consultation from verified doctors online.</string>
+
+
+</resources>

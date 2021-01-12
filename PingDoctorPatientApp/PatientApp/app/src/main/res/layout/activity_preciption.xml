@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backcover"
+    tools:context=".Dashbord.ui.PreciptionActivity">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <include layout="@layout/toolbar"
+           android:visibility="invisible"
+           android:id="@+id/toolbar"/>
+
+       <RelativeLayout
+           android:id="@+id/lklkl"
+           android:layout_width="match_parent"
+           android:layout_below="@+id/toolbar"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:layout_marginRight="@dimen/_10sdp"
+           android:layout_height="wrap_content">
+
+
+
+
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/clinic_name"
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="@dimen/_3sdp"
+                   android:paddingRight="@dimen/_3sdp"
+                   android:maxLines="1"
+                   android:textStyle="bold"
+                   android:text="5858558585855855855"
+                   android:fontFamily="@font/proximanovaregular"
+                   android:layout_gravity="right"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/blue"
+                   android:textSize="21dp"/>
+
+               <TextView
+                   android:id="@+id/name"
+                   android:layout_marginTop="@dimen/_2sdp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:maxLines="1"
+                   android:text="5858558585855855855"
+                   android:fontFamily="@font/proximanovaregular"
+                   android:layout_gravity="right"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/background"
+                   android:textSize="14dp"/>
+
+
+               <TextView
+                   android:id="@+id/mobile"
+                   android:layout_marginTop="@dimen/_2sdp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:maxLines="1"
+                   android:text="5858558585855855855"
+                   android:fontFamily="@font/proximanovaregular"
+                   android:layout_gravity="right"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/background"
+                   android:textSize="14dp"/>
+
+
+               <TextView
+                   android:id="@+id/email"
+                   android:layout_marginTop="@dimen/_2sdp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:maxLines="1"
+                   android:text="5858558585855855855"
+                   android:fontFamily="@font/proximanovaregular"
+                   android:layout_gravity="right"
+                   android:gravity="center_vertical"
+                   android:textColor="@color/background"
+                   android:textSize="14dp"/>
+
+
+
+
+           </LinearLayout>
+       </RelativeLayout>
+
+       <ImageView
+           android:id="@+id/Preciption_img"
+           android:layout_below="@+id/lklkl"
+           android:padding="@dimen/_3sdp"
+           android:layout_alignParentRight="true"
+           android:layout_width="70dp"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:layout_height="70dp"
+           android:layout_margin="@dimen/_10sdp"
+           android:src="@drawable/rnd_new"
+           />
+
+       <TextView
+           android:id="@+id/Preciption_description"
+           android:layout_below="@+id/Preciption_img"
+           android:layout_marginTop="@dimen/_2sdp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:maxLines="1"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:text="5858558585855855855"
+           android:fontFamily="@font/proximanovaregular"
+           android:layout_gravity="right"
+           android:gravity="center_vertical"
+           android:textColor="#343434"
+           android:paddingLeft="@dimen/_10sdp"
+
+
+           android:textSize="15dp"/>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recycler_view_Preciption"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:layout_above="@+id/checkoutlayout"
+           android:layout_below="@+id/Preciption_description"
+           android:nestedScrollingEnabled="false"
+           android:padding="@dimen/_10sdp"
+           android:scrollbars="vertical"
+           tools:context="example.javatpoint.com.recyclerviewlist.MainActivity" />
+
+
+
+
+
+       <ImageView
+           android:padding="@dimen/_5sdp"
+           android:layout_width="70dp"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:layout_height="70dp"
+           android:layout_margin="@dimen/_12sdp"
+           android:src="@drawable/rnd_new"
+           android:tint="@color/white"
+           />
+
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/customerimage"
+           android:padding="@dimen/_3sdp"
+           android:layout_width="70dp"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:layout_height="70dp"
+           android:layout_margin="@dimen/_10sdp"
+           android:src="@drawable/rnd_new"
+           android:visibility="gone"
+           app:civ_border_color="@color/white"
+           app:civ_border_width="1dp"/>
+
+
+
+
+
+
+   </RelativeLayout>
+
+</RelativeLayout>
